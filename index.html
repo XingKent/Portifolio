@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guilherme Freire — Desenvolvedor Front-End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">GF<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="mailto:guilhermefreire448@gmail.com" class="nav-cta">Contratar</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="sobre">
+    <div class="hero-grid">
+      <div class="hero-tag"><span class="tag-dot"></span> Disponível para oportunidades</div>
+      <h1 class="hero-title">
+        <span class="line line-1">Guilherme</span>
+        <span class="line line-2">Freire<span class="accent">.</span></span>
+      </h1>
+      <p class="hero-role">Desenvolvedor <em>Full-Stack</em></p>
+      <p class="hero-desc">
+        Estudante de Ciência da Computação com foco em desenvolvimento web.
+        Construo interfaces modernas e sistemas robustos — do front-end ao deploy em produção.
+      </p>
+      <div class="hero-actions">
+        <a href="#projetos" class="btn-primary">Ver Projetos</a>
+        <a href="https://github.com/XingKent" target="_blank" class="btn-ghost">GitHub ↗</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Anos estudando</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Projetos entregues</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Tecnologias</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-deco">
+      <div class="deco-ring ring-1"></div>
+      <div class="deco-ring ring-2"></div>
+      <div class="deco-ring ring-3"></div>
+      <div class="deco-label">Rio de Janeiro, BR</div>
+      <div class="deco-code">
+        <span class="c-keyword">const</span> dev = {<br/>
+        &nbsp;&nbsp;<span class="c-key">nome</span>: <span class="c-str">"Guilherme"</span>,<br/>
+        &nbsp;&nbsp;<span class="c-key">stack</span>: <span class="c-str">"Full-Stack"</span>,<br/>
+        &nbsp;&nbsp;<span class="c-key">status</span>: <span class="c-orange">"open to work"</span><br/>
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2>Habilidades <span class="accent">Técnicas</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 class="skill-cat">Front-End</h3>
+          <div class="skill-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-cat">Back-End</h3>
+          <div class="skill-tags">
+            <span class="tag">Python 3</span>
+            <span class="tag">Django</span>
+            <span class="tag">DRF</span>
+            <span class="tag">Java</span>
+            <span class="tag">C/C++</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-cat">Banco de Dados</h3>
+          <div class="skill-tags">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">SQL</span>
+            <span class="tag">PL/SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-cat">Infraestrutura</h3>
+          <div class="skill-tags">
+            <span class="tag">Docker</span>
+            <span class="tag">Nginx</span>
+            <span class="tag">Git/GitHub</span>
+            <span class="tag">Linux</span>
+            <span class="tag">VPS Deploy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="soft-skills">
+        <h3 class="skill-cat">Soft Skills</h3>
+        <div class="soft-grid">
+          <div class="soft-item"><span>⚡</span> Aprendizado Rápido</div>
+          <div class="soft-item"><span>🤝</span> Trabalho em Equipe</div>
+          <div class="soft-item"><span>🎯</span> Resolução de Problemas</div>
+          <div class="soft-item"><span>📋</span> Organização</div>
+          <div class="soft-item"><span>💬</span> Comunicação Clara</div>
+          <div class="soft-item"><span>🔄</span> Adaptabilidade</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section class="section section-dark" id="experiencia">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2>Experiência <span class="accent">&</span> Formação</h2>
+      </div>
+
+      <div class="timeline">
+        <!-- Experiência -->
+        <div class="timeline-block">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-meta">
+              <span class="tl-badge badge-work">Trabalho</span>
+              <span class="tl-period">03/2025 — Atualmente</span>
+            </div>
+            <h3 class="tl-title">Desenvolvedor Full-Stack</h3>
+            <p class="tl-company">Galileu Robotics · Remoto</p>
+            <ul class="tl-list">
+              <li>Desenvolvimento Full-Stack com Python (Django & DRF) no back-end e HTML5/CSS3/JavaScript no front-end</li>
+              <li>Arquitetura híbrida com páginas estáticas de alta performance integradas com Django Templates</li>
+              <li>DevOps & Infraestrutura: Deploy em VPS (Hostinger) com Docker e Docker Compose</li>
+              <li>Configuração avançada de Nginx como Proxy Reverso com SSL (HTTPS)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Formação -->
+        <div class="timeline-block">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-meta">
+              <span class="tl-badge badge-edu">Formação</span>
+              <span class="tl-period">01/2023 — 11/2026</span>
+            </div>
+            <h3 class="tl-title">Ciência da Computação</h3>
+            <p class="tl-company">Universidade Estácio de Sá · Rio de Janeiro, BR</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificações -->
+      <div class="certs">
+        <h3 class="skill-cat" style="margin-bottom:1.5rem;">Certificações</h3>
+        <div class="certs-grid">
+          <div class="cert-card">
+            <span class="cert-year">2025</span>
+            <p>Programação de Sistemas de Informação</p>
+            <span class="cert-org">Estácio</span>
+          </div>
+          <div class="cert-card">
+            <span class="cert-year">2024</span>
+            <p>Programação para Internet</p>
+            <span class="cert-org">Estácio</span>
+          </div>
+          <div class="cert-card">
+            <span class="cert-year">2024</span>
+            <p>Python com Orientação a Objetos</p>
+            <span class="cert-org">Alura</span>
+          </div>
+          <div class="cert-card in-progress">
+            <span class="cert-year">Em andamento</span>
+            <p>Desenvolvimento de Software Full-stack</p>
+            <span class="cert-org">Origamid</span>
+          </div>
+          <div class="cert-card in-progress">
+            <span class="cert-year">Em andamento</span>
+            <p>Banco de Dados Oracle SQL e PL/SQL</p>
+            <span class="cert-org">Udemy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="section" id="projetos">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2>Projetos <span class="accent">Pessoais</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-num">01</div>
+          <div class="project-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Git</span>
+          </div>
+          <h3 class="project-title">Jogo da Memória</h3>
+          <p class="project-desc">
+            Single Page Application com foco em lógica de programação, manipulação de DOM e interação com interface.
+            Versionamento completo via Git/GitHub.
+          </p>
+          <div class="project-footer">
+            <a href="https://github.com/XingKent" target="_blank" class="project-link">Ver no GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card project-featured">
+          <div class="project-num">02</div>
+          <div class="project-tags">
+            <span>Python</span><span>Django</span><span>JavaScript</span><span>API</span>
+          </div>
+          <h3 class="project-title">Mapa Socioeconômico BR</h3>
+          <p class="project-desc">
+            Aplicação web para visualização de indicadores socioeconômicos do Brasil — índices de inflação e desemprego —
+            com integração de APIs externas e exibição interativa em mapa.
+          </p>
+          <div class="project-footer">
+            <a href="https://github.com/XingKent" target="_blank" class="project-link">Ver no GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">03</div>
+          <div class="project-tags">
+            <span>Django</span><span>DRF</span><span>Docker</span><span>Nginx</span>
+          </div>
+          <h3 class="project-title">Site Galileu Robotics</h3>
+          <p class="project-desc">
+            Plataforma web completa com arquitetura híbrida, deploy em VPS com Docker e Nginx como proxy reverso com SSL.
+          </p>
+          <div class="project-footer">
+            <span class="project-link live">● Em produção</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section section-contact" id="contato">
+    <div class="section-inner contact-inner">
+      <div class="contact-text">
+        <span class="section-num">04</span>
+        <h2>Vamos <span class="accent">conversar?</span></h2>
+        <p>Estou em busca de oportunidades de estágio ou emprego em desenvolvimento de sistemas.
+        Fique à vontade para entrar em contato!</p>
+        <div class="contact-links">
+          <a href="mailto:guilhermefreire448@gmail.com" class="contact-item">
+            <span class="ci-icon">✉</span>
+            <span>guilhermefreire448@gmail.com</span>
+          </a>
+          <a href="tel:+5521976754628" class="contact-item">
+            <span class="ci-icon">☎</span>
+            <span>(21) 97675-4628</span>
+          </a>
+          <a href="https://linkedin.com/in/guilherme-freire-08970b29b" target="_blank" class="contact-item">
+            <span class="ci-icon">in</span>
+            <span>LinkedIn ↗</span>
+          </a>
+          <a href="https://github.com/XingKent" target="_blank" class="contact-item">
+            <span class="ci-icon">{ }</span>
+            <span>GitHub ↗</span>
+          </a>
+        </div>
+        <div class="idiomas">
+          <span class="tag">🇧🇷 Português — Nativo</span>
+          <span class="tag">🇺🇸 Inglês — Avançado</span>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <a href="mailto:guilhermefreire448@gmail.com" class="btn-cta-big">
+          Enviar mensagem
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2025 Guilherme Freire</span>
+    <span>Rio de Janeiro, Brasil</span>
+    <span>Feito com ❤️ e muito CSS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
