@@ -1,8 +1,3 @@
-/* ============================================
-   GUILHERME FREIRE — PORTFOLIO
-   script.js — Interactions & Animations
-   ============================================ */
-
 // ====== CUSTOM CURSOR ======
 const cursor = document.getElementById('cursor');
 const cursorTrail = document.getElementById('cursorTrail');
