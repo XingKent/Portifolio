@@ -963,31 +963,8 @@ ul { list-style: none; }
   .stat-num { font-size: 1.6rem; }
   .stat-label { font-size: 0.65rem; }
 
-  /* Hero deco — versão compacta no mobile */
-  .hero-deco {
-    display: flex;
-    height: auto;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem 0 0.5rem;
-  }
-
-  .deco-ring { display: none; }
-
-  .deco-label {
-    display: none;
-  }
-
-  .deco-code {
-    position: static;
-    font-size: 0.72rem;
-    line-height: 1.8;
-    padding: 0.9rem 1.1rem;
-    width: 100%;
-    white-space: pre-wrap;
-    border-radius: 8px;
-  }
+  /* Hero deco escondida no mobile */
+  .hero-deco { display: none; }
 
   /* Sections */
   .section { padding: 4rem 1.25rem; }
