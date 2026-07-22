@@ -500,7 +500,7 @@ ul { list-style: none; }
 
 .tl-dot {
   position: absolute;
-  left: -2.9rem;
+  left: -2.79rem;
   top: 0.5rem;
   width: 10px; height: 10px;
   background: var(--orange);
